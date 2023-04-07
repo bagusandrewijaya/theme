@@ -268,7 +268,7 @@
                     <img src="./images/glanz_logo.png" alt="" class="gla_logo_rev">
                     <div class="gla_logo_txt">
                         <!-- Logo -->
-                        <a href="http://glanz.starkethemes.com/" class="gla_logo">Laur & Aff</a>
+                        <a  class="gla_logo">Caca & Fikri</a>
                         
                         <!-- Text Logo -->
                         <div class="gla_logo_und">August 10, 2017</div>
@@ -278,7 +278,7 @@
                 <!-- Menu -->
                 <div class="gla_main_menu gla_main_menu_mobile">
                     
-                    <div class="gla_main_menu_icon">
+                    <div class="gla_main_menu_icon ">
                        
                         <p>AMPLOP DIGITAL<p>
                      
@@ -286,12 +286,12 @@
                 </div>
                 
                 <!-- Menu Content -->
-                <div class="gla_main_menu_content gla_image_bck" data-color="rgba(0,0,0,0.9)" data-image="./images/wedding/lauren_affonso/14400933225_3b844816c3_k.jpg">
+                <div class="gla_main_menu_content">
                     <!-- Over -->
                     <div class="gla_over" data-color="#000" data-opacity="0.7"></div>
                 </div>
 
-                <div class="gla_main_menu_content_menu gla_wht_txt text-right">
+                <div class="gla_main_menu_content_menu gla_clr_txt text-right">
                     <div class="container">
                         
                         <div class="gla_main_menu_content_menu_copy">
@@ -362,7 +362,7 @@ function copyToClipboard(text) {
 
 
     <!-- Slider -->
-    <div class="gla_slider gla_image_bck  gla_wht_txt gla_fixed" data-image="./images/wedding/lauren_affonso/14400933225_3b844816c3_k.jpg" data-stellar-background-ratio="0.8">
+    <div class="gla_slider gla_image_bck  gla_wht_txt gla_fixed"  data-stellar-background-ratio="0.8">
 
 <!-- Over -->
 <div class="gla_over" data-color="#1e1d2d" data-opacity="0.2"></div>
@@ -433,13 +433,13 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
 
 
         <!-- section -->
-        <section class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" data-image="./images/wedding/lauren_affonso/14214309838_1a8f80c65a_k.jpg">
+        <section class="gla_section gla_image_bck gla_fixed gla_wht_txt"  >
             
             <!-- Over -->
-            <div class="gla_over" data-color="#1e1d2d" data-opacity="0.4"></div>
+            <div class="gla_over"  data-opacity="0.4"></div>
             
             <div class="container text-center">
-                <p><img src="./images/animations/savethedate_wh.gif" data-bottom-top="@src:./images/animations/savethedate_wh.gif" height="150" alt=""></p>
+                <p><img src="./images/animations/savethedate.gif" data-bottom-top="@src:./images/animations/savethedate.gif" height="150" alt=""></p>
                 <h2>August 10th, 2017</h2>
                 <h3 class="gla_subtitle">St. Thomas's Church, <br>Bristol, U.K.</h3>
                 <div class="gla_countdown" data-year="2017" data-month="08" data-day="10"></div>
@@ -502,62 +502,7 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
 
 
         <!-- section -->
-        <section class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.2" data-image="./images/wedding/lauren_affonso/14378154996_a9923cfa6f_k.jpg">
-            
-            <!-- Over -->
-            <div class="gla_over" data-color="#1e1d2d" data-opacity="0.4"></div>
-            
-            <div class="container text-center">
-                <p><img src="./images/animations/rsvp_wh.gif" data-bottom-top="@src:./images/animations/rsvp_wh.gif" height="200" alt=""></p>
-                
-                <div class="row">
-                    <div class="col-md-8 col-md-push-2">
-                        <form action="https://formspree.io/your@mail.com" method="POST">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Your name*</label>
-                                    <input type="text" name="name" class="form-control form-opacity">
-                                </div>
-                                <div class="col-md-6">
-                                    <label>Your e-mail*</label>
-                                    <input type="text" name="email" class="form-control form-opacity">
-                                </div>
-                  
-                                <div class="col-md-6">
-                                    <label>Will you attend?</label>
-
-                                    <input type="radio" name="attend" value="Yes, I will be there">
-                                    <span>Yes, I will be there</span><br>
-                                    <input type="radio" name="attend" value="Sorry, I can't come">
-                                    <span>Sorry, I can't come</span>
-                                    
-                                </div>
-                                <div class="col-md-6">
-                                    <label>Meal preference</label>
-                                    <select name="meal" class="form-control form-opacity">
-                                        <option value="I eat anything">I eat anything</option>
-                                        <option value="Beef">Beef</option>
-                                        <option value="Chicken">Chicken</option>
-                                        <option value="Vegetarian">Vegetarian</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-12">
-                                    <label>Notes</label>
-                                    <textarea name="message" class="form-control form-opacity"></textarea>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" class="btn submit" value="Send">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                
-                
-            </div>
-            <!-- container end -->
-
-        </section>
+        
         <!-- section end -->
 
 
@@ -777,10 +722,10 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
         <!-- section end -->
 
 
-        <!-- section -->
-        <section class="gla_section gla_image_bck gla_wht_txt gla_fixed" data-stellar-background-ratio="0.8" data-image="./images/wedding/lauren_affonso/14214387908_8ad395d6d0_k.jpg">
+   
+        <!-- <section class="gla_section gla_image_bck gla_wht_txt gla_fixed" data-stellar-background-ratio="0.8" data-image="./images/wedding/lauren_affonso/14214387908_8ad395d6d0_k.jpg">
 
-            <!-- Over -->
+       
             <div class="gla_over" data-color="#1e1d2d" data-opacity="0.4"></div>
             
             <div class="container text-center">
@@ -789,205 +734,89 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
                 <h2>Registry</h2>
                 <p>We’re lucky enough to have nearly everything we need for our home already. And since neither of us has ever been outside of North America, we want our honeymoon to be extra special! If you want to help make it unforgettable, you can contribute using the link to the right. If you would like to give us something to update our home, we’ve compiled a short registry as well.</p>
 
-                <!-- icon boxes -->
-                
-                <!-- icon boxes end -->
-                
+        
                 
                 
             </div>
-            <!-- container end -->
+          
 
-        </section>
-        <!-- section end -->
+        </section> -->
+
 
 
         <!-- section -->
-        <section class="gla_section gla_image_bck" data-color="#fff">
-            
-            
-            <div class="container text-center">
-
-                <h2>The Wedding Party</h2>
-                
-                <!-- filters -->
-                <div class="button-group filter-button-group">
-                    <a data-filter="*">Show All</a>
-                    <a data-filter=".groomsmen">Groomsmen</a>
-                    <a data-filter=".bridesmaids">Bridesmaids</a>
-                </div>
-                <!-- filters end -->
-
-                <!-- grid -->
-                <div class="gla_portfolio_no_padding grid">
-                    
-                    <div class="col-sm-4 gla_anim_box grid-item bridesmaids">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14421186043_a817e20aa5_k-ryan-moreno.html" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14421186043_a817e20aa5_k.jpg" alt="">
-                            </a>
-                            
-                            <a href="#" class="gla_shop_item_title">
-                                Andrew & Joanna
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item bridesmaids">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14401255335_785c7e78a4_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14401255335_785c7e78a4_k.jpg" alt="">
-                            </a>
-                            
-                            <a href="#" class="gla_shop_item_title">
-                                Stewart & Ann
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item bridesmaids">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214456709_b71037d1ed_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214456709_b71037d1ed_k.jpg" alt="">
-                            </a>
-                            
-                            <a href="#" class="gla_shop_item_title">
-                                Mark & Jenny
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item broombridesmaidssmen">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14421584103_4393f08b6c_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14421584103_4393f08b6c_k.jpg" alt="">
-                            </a>
-                            
-                            <a href="#" class="gla_shop_item_title">
-                                Izzy & Katy
-                            </a>
-
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-sm-4 gla_anim_box grid-item groomsmen">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214839668_c094232d97_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214839668_c094232d97_k.jpg" alt="">
-                            </a>
-                            
-                            <a href="#" class="gla_shop_item_title">
-                                Bob
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item groomsmen">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214805748_41d9615733_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214805748_41d9615733_k.jpg" alt="">
-                            </a>
-                            
-                            <a href="#" class="gla_shop_item_title">
-                                Mark
-                            </a>
-
-                        </div>
-                    </div>
-
-
-                    <div class="col-sm-4 gla_anim_box grid-item groomsmen">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214429749_ad31345b6d_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214429749_ad31345b6d_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item groomsmen">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214473720_7f2af51372_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214473720_7f2af51372_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-
-                    <div class="col-sm-4 gla_anim_box grid-item groomsmen">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14401083075_5bf66d3082_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14401083075_5bf66d3082_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item groomsmen">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14401497035_5c4a8f0b0a_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14401497035_5c4a8f0b0a_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item groomsmen">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14399707332_ca2503be41_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14399707332_ca2503be41_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item groomsmen">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214662727_11e5c719f7_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214662727_11e5c719f7_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                 </div>
-                 <!-- grid end -->
-                
-
-                
-            </div>
-            <!-- container end -->
-
-        </section>
+        
         <!-- section end -->
 
 
-
-        
-
-        
-
-        <!-- section -->
-        <section class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8" data-image="./images/wedding/lauren_affonso/14377952686_252620ebb7_k.jpg">
+        <section class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.2" >
             
             <!-- Over -->
             <div class="gla_over" data-color="#1e1d2d" data-opacity="0.4"></div>
             
             <div class="container text-center">
-                <p><img src="./images/animations/thnyou_wh.gif" alt="" height="200" data-bottom-top="@src:./images/animations/thnyou_wh.gif"></p>
+                <p><img src="./images/animations/rsvp_wh.gif" data-bottom-top="@src:./images/animations/rsvp_wh.gif" height="200" alt=""></p>
+                
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2">
+                        <form action="https://formspree.io/your@mail.com" method="POST">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Your name*</label>
+                                    <input type="text" name="name" class="form-control form-opacity">
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Your e-mail*</label>
+                                    <input type="text" name="email" class="form-control form-opacity">
+                                </div>
+                  
+                                <div class="col-md-6">
+                                    <label>Will you attend?</label>
+
+                                    <input type="radio" name="attend" value="Yes, I will be there">
+                                    <span>Yes, I will be there</span><br>
+                                    <input type="radio" name="attend" value="Sorry, I can't come">
+                                    <span>Sorry, I can't come</span>
+                                    
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Meal preference</label>
+                                    <select name="meal" class="form-control form-opacity">
+                                        <option value="I eat anything">I eat anything</option>
+                                        <option value="Beef">Beef</option>
+                                        <option value="Chicken">Chicken</option>
+                                        <option value="Vegetarian">Vegetarian</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-12">
+                                    <label>Notes</label>
+                                    <textarea name="message" class="form-control form-opacity"></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn submit" value="Send">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                
+            </div>
+            <!-- container end -->
+
+        </section>
+        
+
+        
+
+        <!-- section -->
+        <section class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8">
+            
+            <!-- Over -->
+            <div class="gla_over" ></div>
+            
+            <div class="container text-center">
+                <p><img src="./images/animations/thnyou.gif" alt="" height="200" data-bottom-top="@src:./images/animations/thnyou.gif"></p>
 
                 
                 

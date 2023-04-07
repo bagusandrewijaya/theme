@@ -143,7 +143,10 @@ html {
 
 /*01.1 White Text*/
 .gla_wht_txt {
-	color: #fff;
+	color: #000000;
+}
+.gla_clr_txt {
+	color: #ffffff;
 }
 	.gla_wht_txt h2:after {
 	}
@@ -217,7 +220,7 @@ h2 {
 	color: #333;
 }
 .gla_wht_txt h2 {
-	color: #fff;
+	color: #000000;
 }
 .gla_great_titles h2 {
 	font:900 80px marsha, Arial;
