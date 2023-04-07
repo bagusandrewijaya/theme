@@ -91,10 +91,11 @@
   if(isset($_GET['pria']) && isset($_GET['wanita'])) {
     $nama = str_replace(' ', '%20', $_GET['pria']); // mengganti spasi dengan %20
     $umur = str_replace(' ', '%20', $_GET['wanita']); // menghapus spasi
-    $url = "https://salma.cleverapps.io/axdx.php?pria=$nama&wanita=$umur";
+    $url = "https://salma.cleverapps.io/index.php?pria=$nama&wanita=$umur";
     echo "<a href='#' onclick='copyToClipboard(\"$url\")'> Salin URL</a>";
   }
 ?>
+      
     </div>      
     
 <script>
