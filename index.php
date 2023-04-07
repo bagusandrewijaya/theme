@@ -45,7 +45,7 @@
 
     <!-- Music -->
     <audio id="myAudio">
-  <source src="asas.mp3" type="audio/mpeg">
+  <source src="./asas.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
