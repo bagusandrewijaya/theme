@@ -44,11 +44,27 @@
 
 
     <!-- Music -->
-    <div class="gla_music_icon">
-        <i class="ti ti-music"></i>
-    </div>
-    <div class="gla_music_icon_cont">
-        <iframe id="soundcloud-iframe" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/142295687&color=%23ff5500&&auto_play=true&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/franciscus-hutasoit" title="Franciscus Hutasoit" target="_blank" style="color: #cccccc; text-decoration: none;">Franciscus Hutasoit</a> · <a href="https://soundcloud.com/franciscus-hutasoit/george-benson-nothings-gonna" title="George Benson - Nothing&#x27;s Gonna Change My Love for You [Saxophone Cover]" target="_blank" style="color: #cccccc; text-decoration: none;">George Benson - Nothing&#x27;s Gonna Change My Love for You [Saxophone Cover]</a></div> </div>
+    <audio id="myAudio">
+  <source src="asas.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<button onclick="togglePlay()" class="gla_music_icon">
+  <i class="ti ti-music"></i>
+</button>
+
+<script>
+  var audio = document.getElementById("myAudio");
+  function togglePlay() {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+</script>
+
+
     
     <!-- Header -->
     <header>       
@@ -178,14 +194,15 @@
             
             <div class="container text-center">
                 <p><img src="./images/animations/flower5.gif" data-bottom-top="@src:./images/animations/flower5.gif; opacity:1" class="gla_animated_flower" height="150" alt=""></p>
-                <h2>Our Story</h2>
-                <h3 class="gla_subtitle">The Fourth of July</h3>
+                <h2>Mengundang</h2>
+                <h3 class="gla_subtitle"><?php echo $_GET['pria'] . ' & ' . $_GET['wanita']; ?></h3>
+
                 
                 
+<p>Merupakan suatu kehormatan bagi kami apabila Bapak/Ibu/Saudara/i bersedia hadir dalam acara kami. Kami percaya kehadiran Bapak/Ibu/Saudara/i akan memberikan nilai tambah pada acara kami.
 
-                <p>My fiancé proposed on the Fourth of July. My mother asked us to go to the backyard to get some chairs and he took me by the shed where we could see all of the fireworks. He kissed me, then he took the ring box out of his pocket and asked me to be his wife. He was shaking a little. The proposal was a little silly but perfect, just like him." — Jeska Cords</p>
-
-               
+Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terima kasih.</p>
+             
                 
             </div>
             <!-- container end -->
@@ -785,8 +802,6 @@
     }
   });
 </script>
-Perhatikan bahwa pada script di atas, kita menggunakan auto_play=false pada parameter URL soundcloud, karena kita ingin agar audio tidak langsung dimainkan saat halaman dibuka. Kemudian pada script JavaScript, kita memanfaatkan contentWindow.postMessage('play', '*') untuk memainkan audio pada iframe.
-
 
 
 
