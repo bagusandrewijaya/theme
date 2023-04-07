@@ -252,16 +252,6 @@
   <i class="ti ti-music"></i>
 </button>
 
-<script>
-  var audio = document.getElementById("myAudio");
-  function togglePlay() {
-    if (audio.paused) {
-      audio.play();
-    } else {
-      audio.pause();
-    }
-  }
-</script>
 
 
     
@@ -391,7 +381,7 @@ function copyToClipboard(text) {
 <!-- container end -->
 
 <!-- Slide Down -->
-<a id="scrollme" class="gla_scroll_down gla_go" href="#gla_content">
+<a onclick="togglePlay()"  id="scrollme" class="gla_scroll_down gla_go" href="#gla_content">
   <b></b>
   OPEN HERE
 </a>
@@ -1038,6 +1028,16 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
 
 
 
+<script>
+  var audio = document.getElementById("myAudio");
+  function togglePlay() {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  }
+</script>
 
 <!-- JQuery -->
 <script src="./js/jquery-1.12.4.min.js"></script> 
