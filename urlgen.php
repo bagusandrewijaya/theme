@@ -84,19 +84,22 @@
                 <h1>Undang Untuk</h1>
                 <input class="username" name="pria" type="text" placeholder="bapak">
                 <input class="username" name="wanita" type="text" placeholder="ibu">
-              <input type="submit" class="button"></input>
+                <input class="username" name="notlp" type="text" placeholder="857xxx">
+              <input type="submit" class="button" ></input>
             </div>
         </form>
         <?php
-  if(isset($_GET['pria']) && isset($_GET['wanita'])) {
-    $nama = str_replace(' ', '%20', $_GET['pria']); // mengganti spasi dengan %20
-    $umur = str_replace(' ', '%20', $_GET['wanita']); // menghapus spasi
-    $url = "https://salma.cleverapps.io/index.php?pria=$nama&wanita=$umur";
-    echo "<a href='#' onclick='copyToClipboard(\"$url\")'> Salin URL</a>";
-  }
+if(isset($_GET['pria']) && isset($_GET['wanita'] )&& isset($_GET['notlp'] )) {
+   $nama = isset($_GET['pria']) && !empty($_GET['pria']) ? urlencode($_GET['pria']) : "pasangan";
+   $umur = isset($_GET['wanita']) && !empty($_GET['wanita']) ? urlencode($_GET['wanita']) : "pasangan";
+   $kontak = isset($_GET['notlp']) && !empty($_GET['notlp']) ? urlencode($_GET['notlp']) : "xxxxx";
+   
+  $url = "https://api.whatsapp.com/send?phone=62$kontak&text=" .
+         urlencode("Assalamu'alaikum Wr. Wb\nBismillahirahmanirrahim.\n\nYth.  ".str_replace("+"," ",$nama)." & ".str_replace("+"," ",$umur)." \n\nTanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i, teman sekaligus sahabat, untuk menghadiri acara pernikahan kami:\n\nCaca & Fikri\n\nBerikut link undangan kami untuk info lengkap dari acara bisa kunjungi:\n\nhttps://salma.cleverapps.io/index.php?pria=$nama&wanita=$umur\n\nMerupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\nMohon maaf perihal undangan hanya di bagikan melalui pesan ini. Terima kasih banyak atas perhatiannya.\n\nWassalamu'alaikum Wr. Wb.\nTerima Kasih");
+         header("Location: $url");;
+}
 ?>
-      
-    </div>      
+     
     
 <script>
 function copyToClipboard(text) {
