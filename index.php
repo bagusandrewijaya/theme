@@ -12,8 +12,11 @@
 <!-- Favicon -->
 <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+<<<<<<< HEAD
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+=======
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
  
@@ -384,9 +387,14 @@
 
 <div class="container">
   <!-- Slider Texts -->
-  <div class="gla_slide_txt gla_slide_center_middle text-center">
+  <div class="gla_slide_txt center_middle text-center">
+<<<<<<< HEAD
   <p style="font-family: 'Courgette', cursive; font-size: 25px; color: #19376D;">The wedding of</p>
 <p style="font-family: 'Courgette', cursive; font-size: 30px; color: #19376D;">Caca & Fikri</p>
+=======
+  <p style="font-family: 'Pacifico', cursive; font-size: 25px; color: #FCC8D1;">The wedding of</p>
+<p style="font-family: 'Pacifico', cursive; font-size: 30px; color: #FCC8D1;">caca & fikri</p>
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
     <div class="gla_flower gla_flower2">
 
       <img src="./images/wedding/lauren_affonso/14214412498_73d4296c75_k_sm.jpg" alt="">
@@ -433,13 +441,18 @@ scrollDownBtn.addEventListener('click', function(event) {
             <div class="container text-center">
                 <p><img src="./images/animations/flower5.gif" data-bottom-top="@src:./images/animations/flower5.gif; opacity:1" class="gla_animated_flower" height="150" alt=""></p>
                 <h2>Inviting</h2>
+<<<<<<< HEAD
                 <h3 class="gla_subtitle" style=" font-size: 25px;"><?php echo $_GET['pria'] .'<br>'. ' & '.'<br>' . $_GET['wanita']; ?></h3>
+=======
+                <h3 class="gla_subtitle"><?php echo $_GET['pria'] . ' & ' . $_GET['wanita']; ?></h3>
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
 
                 <br>
 <br>
 <br>
 <br>           
                 
+<<<<<<< HEAD
 <p  style="font-family: 'Pacifico', cursive; font-size: 25px;">It is honor for us if you are willing to attend our event. Come join us at our wedding ceremony.</p>
 <br>
 <br>
@@ -469,15 +482,31 @@ scrollDownBtn.addEventListener('click', function(event) {
             <p style="font-family: 'Satisfy', cursive; font-size: 30px; text-transform: capitalize;">Amalia Salsabila, S.Pd</p>
        <br>
             <p style="font-family: 'Satisfy',cursive; sans-serif;  font-size: 20px;">The first daughter of<br> Mr. Muhammad Indarwin<br> and<br> Mrs. Sri Sulastri</p>
+=======
+                
+<p>It is honor for us if you are willing to attend our event. Come join us at our wedding ceremony.</p>
+             
+            <h2>The Wedding of</h2>
+    
+            <p style="font-family: 'Pacifico', cursive; font-size: 30px;">Amalia Salsabila, S.Pd</p>
+            <br>
+            <p style="font-family: 'Philosopher', sans-serif;  font-size: 20px;">The first daughter of Mr. Muhammad Indarwin and Mrs. Sri Sulastri</p>
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
       <br>
              <div>
              <p><img src="./images/and.png" data-bottom-top="@src:./images/and.png; opacity:1" class="gla_animated_flower" height="50" alt=""></p>
           
 </div>
        <br>
+<<<<<<< HEAD
        <p style="font-family: 'Satisfy', cursive; font-size: 30px;">Fikri Handika, S.Ikom</p>
             <br>
             <p style="font-family: 'Satisfy' ,cursive; sans-serif;  font-size: 20px;">The first son of <br>Mr. Heri Setiawan <br>and<br> Mrs. Wati Bidiawati</p>
+=======
+       <p style="font-family: 'Pacifico', cursive; font-size: 30px;">Fikri Handika, S.Ikom</p>
+            <br>
+            <p style="font-family: 'Philosopher', sans-serif;  font-size: 20px;">The first son of Mr. Heri Setiawan and Mrs. Wati Bidiawati</p>
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
 
              <br>
             </div>
@@ -496,9 +525,15 @@ scrollDownBtn.addEventListener('click', function(event) {
             <div class="gla_over"  data-opacity="0.4"></div>
             
             <div class="container text-center">
+<<<<<<< HEAD
                 <p><img src="./images/savedate.png" data-bottom-top="@src:./images/savedate.png" height="150" alt=""></p>
                 <h2>July 2nd , 2023</h2>
                 <h3 class="gla_subtitle">Hall Building Balitro Menteng,<br> Kec. Bogor Barat, Kota Bogor, Jawa Barat</h3>
+=======
+                <p><img src="./images/animations/savethedate.gif" data-bottom-top="@src:./images/animations/savethedate.gif" height="150" alt=""></p>
+                <h2>July 2nd , 2023</h2>
+                <h3 class="gla_subtitle">Hall Building Balitro <br>Menteng, Kec. Bogor Barat, Kota Bogor, Jawa Barat</h3>
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
                  
             </div>
             <!-- container end -->
@@ -515,8 +550,11 @@ scrollDownBtn.addEventListener('click', function(event) {
                 <p><img src="./images/animations/flower6.gif" data-bottom-top="@src:./images/animations/flower6.gif; opacity:1" class="gla_animated_flower" height="110" alt=""></p>
                 
                 <br>
+<<<<<<< HEAD
                 <br>
                 <br>
+=======
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
                 <h2  class="gla_subtitle">Wedding Details</h2>
 
                 <div class="row text-center">
@@ -720,7 +758,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="col-md-6 mx-auto">
       <div class="card">
         <div class="card-header text-center">
+<<<<<<< HEAD
           <span>Chat  Box</span>
+=======
+          <span>Chat Box</span>
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
         </div>
         <div class="card-body chat-care">
           <ul class="chat" id="comment-list">
@@ -773,7 +815,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 
                         </section>
+<<<<<<< HEAD
                         <hr>
+=======
+   
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
 
         <!-- section -->
         <section class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8">
@@ -804,7 +850,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <br>
 <br>
 <br>
+<<<<<<< HEAD
 <p><img src="./images/thankyou1.png" alt="" height="200" data-bottom-top="@src:./images/thankyou1.png"></p>
+=======
+<p><img src="./images/animations/thnyou.gif" alt="" height="200" data-bottom-top="@src:./images/animations/thnyou.gif"></p>
+>>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
 
             </div>
             <!-- container end -->
