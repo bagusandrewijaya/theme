@@ -12,11 +12,8 @@
 <!-- Favicon -->
 <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
-<<<<<<< HEAD
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-=======
->>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
  
@@ -388,13 +385,8 @@
 <div class="container">
   <!-- Slider Texts -->
   <div class="gla_slide_txt center_middle text-center">
-<<<<<<< HEAD
   <p style="font-family: 'Courgette', cursive; font-size: 25px; color: #19376D;">The wedding of</p>
 <p style="font-family: 'Courgette', cursive; font-size: 30px; color: #19376D;">Caca & Fikri</p>
-=======
-  <p style="font-family: 'Pacifico', cursive; font-size: 25px; color: #FCC8D1;">The wedding of</p>
-<p style="font-family: 'Pacifico', cursive; font-size: 30px; color: #FCC8D1;">caca & fikri</p>
->>>>>>> f39c4b4dbd44056e5afb4acdafb9cc750f2d8757
     <div class="gla_flower gla_flower2">
 
       <img src="./images/wedding/lauren_affonso/14214412498_73d4296c75_k_sm.jpg" alt="">
