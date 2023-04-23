@@ -223,7 +223,7 @@ h2 {
 	color: #000000;
 }
 .gla_great_titles h2 {
-	font:900 80px marsha, Arial;
+	font:900 80px marsha, Arial;gla_logo
 }
 .gla_middle_titles h2 {
 	font:400 70px/80px marsha, Dosis;
@@ -1615,7 +1615,7 @@ ul.mega-menu {
 		transition: all 0.7s;
 	}	
 	.gla_transp_nav .gla_main_menu_icon i {
-		background: #fff;
+		background: #000000;
 	}
 		.gla_main_menu.active .gla_main_menu_icon i,
 		.gla_main_menu.active .gla_main_menu_icon b span {
@@ -1646,7 +1646,7 @@ ul.mega-menu {
 			-webkit-transition-delay: 250ms;
 			-o-transition-delay: 250ms;
 			transition-delay: 250ms;
-			background: #fff;
+			background: #282828;
 			opacity: 0;
 		}
 		.gla_main_menu.active i:nth-child(4) {
@@ -1670,7 +1670,7 @@ ul.mega-menu {
 	.gla_main_menu_icon_b span {
 		transform: translateY(20px);
 		opacity: 0;
-		color: #fff;
+		color: #000000;
 	}
 	.gla_main_menu.active b.gla_main_menu_icon_b span {
 			transform: translateY(0);
@@ -2524,7 +2524,7 @@ ul.mega-menu {
 		bottom: 40px;
 		text-decoration: none;
 		font:italic 400 14px/18px Playfair Display, Arial;
-		color: #333;
+		color: #000000;
 		width: 40px;
 		left: 50%;
 		margin-left: -20px;
@@ -2535,14 +2535,14 @@ ul.mega-menu {
 		text-decoration: none;
 	}
 		.gla_wht_txt .gla_scroll_down b {
-			border:2px solid #fff;
+			border:2px solid #000000;
 		}
 		.gla_wht_txt .gla_scroll_down,
 		.gla_wht_txt .gla_scroll_down:hover {
-			color: #fff;
+			color: #000000;
 		}
 			.gla_wht_txt .gla_scroll_down b:before {
-				background: #fff;
+				background: #000000;
 			}
 		.gla_scroll_down:hover {
 			color: #333;
@@ -2551,7 +2551,7 @@ ul.mega-menu {
 		.gla_scroll_down b {
 			width: 25px;
 			height: 40px;
-			border:2px solid #333;
+			border:2px solid #000000;
 			border-radius: 15px;
 			display: inline-block;
 			position: relative;
@@ -2561,7 +2561,7 @@ ul.mega-menu {
 			content: '';
 			height: 4px;
 			width: 2px;
-			background: #333;
+			background: #000000;
 			left: 10px;
 			top: 8px;
 			position: absolute;
@@ -3103,9 +3103,9 @@ ul.mega-menu {
 .gla_flower2:before {
 	display: block;
 	content: '';
-	background: url(../images/flower2_bird.png);
-	width: 120px;
-	height: 115px;
+	background: url(../images/heartc.png);
+	width: 150px;	
+	height: 130px;
 	position: absolute;
 	z-index: 2;
 	-webkit-background-size: cover;
@@ -4853,6 +4853,10 @@ footer {
 		margin-top: -40px;
 		margin-bottom: 40px;
 	}
+	.gla_subtitlex {
+		margin-top: 240px;
+		margin-bottom: 240px;
+	}
 	.gla_port_icons {
 		display: block;
 		-webkit-transition: all 1s;
@@ -6021,6 +6025,9 @@ header nav.gla_transp_nav {
 }
 h3 {
 	font:italic 400 20px/30px Playfair Display, Arial
+}
+h7 {
+	font:italic 1000 20px/30px Playfair Display, Arial
 }
 .gla_portfolio_footer_grey:after,
 .gla_portfolio_footer_white:after {

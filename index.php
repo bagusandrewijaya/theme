@@ -6,12 +6,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Glanz</title>
+<title>Caca & Fikri</title>
 
 
 <!-- Favicon -->
 <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
-
+<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ 
 <!-- Library CSS -->
 <link href="./css/glanz_library.css" rel="stylesheet">
 
@@ -26,7 +31,119 @@
 
 <!-- Other Fonts -->
 <link href="fonts/marsha/stylesheet.css" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!------ Include the above in your HEAD tag ---------->
 <style>
+    /*/////////////////////////////////*/
+/*/////////  chat styles  /////////*/
+/*/////////////////////////////////*/
+
+.chat .agent {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 0px solid #eee;
+  }
+.chat li
+{
+    margin-bottom: 40px;
+    padding-bottom: 5px;
+    /* border-bottom: 1px dotted #B3A9A9; */
+    margin-top: 10px;
+    width: 80%;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    /* color: #777777; */
+}
+
+
+.chat-care
+{
+    overflow-y: scroll;
+    height: 350px;
+}
+.chat-care .chat-img
+{
+    width: 50px;
+    height: 50px;
+}
+.chat-care .img-circle
+{
+    border-radius: 50%;
+}
+.chat-care .chat-img
+{
+    display: inline-block;
+}
+.chat-care .chat-body
+{
+    display: inline-block;
+    max-width: 80%;
+    background-color: #FFC195;
+    border-radius: 12.5px;
+    padding: 15px;
+}
+.chat-care .chat-body strong
+{
+  color: #0169DA;
+}
+
+.chat-care .admin
+{
+    text-align: right ;
+    float: right;
+}
+.chat-care .admin p
+{
+    text-align: left ;
+}
+.chat-care .agent
+{
+    text-align: left ;
+    float: left;
+}
+.chat-care .left
+{
+    float: left;
+}
+.chat-care .right
+{
+    float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
  .continue-application {
   --color: #fff;
   --background: #404660;
@@ -255,109 +372,7 @@
 
 
     
-    <!-- Header -->
-    <header>       
-
-        
-    
-        <nav class="gla_light_nav gla_transp_nav">
-
-            <div class="container">
-                
-                <div class="gla_logo_container clearfix">
-                    <img src="./images/glanz_logo.png" alt="" class="gla_logo_rev">
-                    <div class="gla_logo_txt">
-                        <!-- Logo -->
-                        <a  class="gla_logo">Caca & Fikri</a>
-                        
-                        <!-- Text Logo -->
-                        <div class="gla_logo_und">August 10, 2017</div>
-                    </div>
-                </div>
-
-                <!-- Menu -->
-                <div class="gla_main_menu gla_main_menu_mobile">
-                    
-                    <div class="gla_main_menu_icon ">
-                       
-                        <p>AMPLOP DIGITAL<p>
-                     
-                    </div>
-                </div>
-                
-                <!-- Menu Content -->
-                <div class="gla_main_menu_content">
-                    <!-- Over -->
-                    <div class="gla_over" data-color="#000" data-opacity="0.7"></div>
-                </div>
-
-                <div class="gla_main_menu_content_menu gla_clr_txt text-right">
-                    <div class="container">
-                        
-                        <div class="gla_main_menu_content_menu_copy">
-                         
-                            <br>
-                            <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <div style="text-align: center;">
-  <h3 class="gla_subtitle">Mohon Doa Restu</h3>
-  <p>adad ajdjad jadjad adjadj ajdbja asjdad jadjasd asdjad ajdad ladjlajd</p>
-    <input type="text" class="form-control" placeholder="Enter Your Keywords" value="54545456" readonly>
-    <br>
-    <button class="continue-application"  onclick="copyToClipboard(this.previousElementSibling.value)">
-    <div>
-        <div class="pencil"></div>
-        <div class="folder">
-            <div class="top">
-                <svg viewBox="0 0 24 27">
-                    <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
-                </svg>
-            </div>
-            <div class="paper"></div>
-        </div>
-    </div>
-   SALIN NOREKENING
-</button>
   
-
-   
-  </div>
-</div>
-
-<script>
-function copyToClipboard(text) {
-  var tempInput = document.createElement("input");
-  tempInput.value = text;
-  document.body.appendChild(tempInput);
-  tempInput.select();
-  document.execCommand("copy");
-  document.body.removeChild(tempInput);
-  alert("NOREKENING berhasil disalin ke clipboard.");
-}
-</script>
-
-
-                            
-                        </div>
-                    </div>
-                    <!-- container end -->
-                </div>
-                <!-- menu content end -->
-
-                <!-- Search Block -->
-           
-                <!-- Search Block End -->
-
-                <!-- Top Menu -->
-                
-                <!-- Top Menu End -->
-
-
-               
-            </div>
-            <!-- container end -->
-        </nav>
-        
-    </header>
     <!-- Header End -->
 
 
@@ -365,16 +380,18 @@ function copyToClipboard(text) {
     <div class="gla_slider gla_image_bck  gla_wht_txt gla_fixed"  data-stellar-background-ratio="0.8">
 
 <!-- Over -->
-<div class="gla_over" data-color="#1e1d2d" data-opacity="0.2"></div>
+<div class="gla_over"></div>
 
 <div class="container">
   <!-- Slider Texts -->
   <div class="gla_slide_txt gla_slide_center_middle text-center">
+  <p style="font-family: 'Courgette', cursive; font-size: 25px; color: #19376D;">The wedding of</p>
+<p style="font-family: 'Courgette', cursive; font-size: 30px; color: #19376D;">Caca & Fikri</p>
     <div class="gla_flower gla_flower2">
-      <div class="gla_flower2_name_l">Lauren <b>Save The Date</b></div>
-      <div class="gla_flower2_name_r">Affonso <b>August 10, 2017</b></div>
+
       <img src="./images/wedding/lauren_affonso/14214412498_73d4296c75_k_sm.jpg" alt="">
     </div>
+
   </div>
   <!-- Slider Texts End -->
 </div>
@@ -415,23 +432,63 @@ scrollDownBtn.addEventListener('click', function(event) {
             
             <div class="container text-center">
                 <p><img src="./images/animations/flower5.gif" data-bottom-top="@src:./images/animations/flower5.gif; opacity:1" class="gla_animated_flower" height="150" alt=""></p>
-                <h2>Mengundang</h2>
-                <h3 class="gla_subtitle"><?php echo $_GET['pria'] . ' & ' . $_GET['wanita']; ?></h3>
+                <h2>Inviting</h2>
+                <h3 class="gla_subtitle" style=" font-size: 25px;"><?php echo $_GET['pria'] .'<br>'. ' & '.'<br>' . $_GET['wanita']; ?></h3>
 
+                <br>
+<br>
+<br>
+<br>           
                 
-                
-<p>Merupakan suatu kehormatan bagi kami apabila Bapak/Ibu/Saudara/i bersedia hadir dalam acara kami. Kami percaya kehadiran Bapak/Ibu/Saudara/i akan memberikan nilai tambah pada acara kami.
+<p  style="font-family: 'Pacifico', cursive; font-size: 25px;">It is honor for us if you are willing to attend our event. Come join us at our wedding ceremony.</p>
+<br>
+<br>
+<br>
+<br>  
+<br>
+<br>
+<br>
+<br>       
+<br>
+<br>
+<br>
+<br>  
+<br>
+<br>
+<br>
+<br>  
+<br>
+<hr>
+<br>
+<br>
 
-Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terima kasih.</p>
-             
-                
+<p><img src="./images/animations/flower5.gif" data-bottom-top="@src:./images/animations/flower5.gif; opacity:1" class="gla_animated_flower" height="150" alt=""></p>
+              
+            <h2>The Wedding of</h2>
+    
+            <p style="font-family: 'Satisfy', cursive; font-size: 30px; text-transform: capitalize;">Amalia Salsabila, S.Pd</p>
+       <br>
+            <p style="font-family: 'Satisfy',cursive; sans-serif;  font-size: 20px;">The first daughter of<br> Mr. Muhammad Indarwin<br> and<br> Mrs. Sri Sulastri</p>
+      <br>
+             <div>
+             <p><img src="./images/and.png" data-bottom-top="@src:./images/and.png; opacity:1" class="gla_animated_flower" height="50" alt=""></p>
+          
+</div>
+       <br>
+       <p style="font-family: 'Satisfy', cursive; font-size: 30px;">Fikri Handika, S.Ikom</p>
+            <br>
+            <p style="font-family: 'Satisfy' ,cursive; sans-serif;  font-size: 20px;">The first son of <br>Mr. Heri Setiawan <br>and<br> Mrs. Wati Bidiawati</p>
+
+             <br>
             </div>
+
+
             <!-- container end -->
 
         </section>
         <!-- section end -->
 
-
+        <hr>
         <!-- section -->
         <section class="gla_section gla_image_bck gla_fixed gla_wht_txt"  >
             
@@ -439,58 +496,45 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
             <div class="gla_over"  data-opacity="0.4"></div>
             
             <div class="container text-center">
-                <p><img src="./images/animations/savethedate.gif" data-bottom-top="@src:./images/animations/savethedate.gif" height="150" alt=""></p>
-                <h2>August 10th, 2017</h2>
-                <h3 class="gla_subtitle">St. Thomas's Church, <br>Bristol, U.K.</h3>
-                <div class="gla_countdown" data-year="2017" data-month="08" data-day="10"></div>
-                
+                <p><img src="./images/savedate.png" data-bottom-top="@src:./images/savedate.png" height="150" alt=""></p>
+                <h2>July 2nd , 2023</h2>
+                <h3 class="gla_subtitle">Hall Building Balitro Menteng,<br> Kec. Bogor Barat, Kota Bogor, Jawa Barat</h3>
+                 
             </div>
             <!-- container end -->
 
         </section>
         <!-- section end -->
 
-
+<hr>
         <!-- section -->
         <section class="gla_section">
             
             
             <div class="container text-center">
                 <p><img src="./images/animations/flower6.gif" data-bottom-top="@src:./images/animations/flower6.gif; opacity:1" class="gla_animated_flower" height="110" alt=""></p>
-                <h2>Wedding Details</h2>
-                <h3 class="gla_subtitle">When & Where</h3>
-                <p>Our ceremony and reception will be held at the Liberty House. Located on the Hudson River, it has a beautiful, unobstructed view of the World Trade One building and a convenient ferry that runs between it and Manhattan.</p>
+                
+                <br>
+                <br>
+                <br>
+                <h2  class="gla_subtitle">Wedding Details</h2>
+
                 <div class="row text-center">
                     <div class="col-md-4 gla_round_block">
-                        <div class="gla_round_im gla_image_bck" data-image="./images/wedding/lauren_affonso/600x600/14214580180_4dbce3ed37_k.jpg"></div>
-                        <h3>The Reception</h3>
-                        <p>4:00 PM – 5:30 PM<br>
-                        St. Thomas's Church,<br>
-                        Bristol<br>
-                        U.K.<br>
-                        +1 777-123-4567</p>
-                        <a href="#" class="btn">View Map</a>
+                          <h3 style="font-size: 24px;">The Ceremony</h3>
+                        <p  style="font-size: 16px;">08.00 AM - 10.00 AM<br>
+                        Hall Building Balitro</p>
+                        <a  style="font-size: 16px;"  href="#" class="btn">View Map</a>
                     </div>
+</div>
+                    <div class="row text-center">
                     <div class="col-md-4 gla_round_block">
-                        <div class="gla_round_im gla_image_bck" data-image="./images/wedding/lauren_affonso/600x600/14214514238_c7a691994d_k.jpg"></div>
-                        <h3>The Ceremony</h3>
-                        <p>4:00 PM – 5:30 PM<br>
-                        St. Thomas's Church,<br>
-                        Bristol<br>
-                        U.K.<br>
-                        +1 777-123-4567</p>
-                        <a href="#" class="btn">View Map</a>
+                          <h3 style="font-size: 24px;">The Reception</h3>
+                        <p  style="font-size: 16px;">11.00 AM - 14.00 PM<br>
+                        Hall Building Balitro</p>
+                        <a   style="font-size: 16px;" href="#" class="btn">View Map</a>
                     </div>
-                    <div class="col-md-4 gla_round_block">
-                        <div class="gla_round_im gla_image_bck" data-image="./images/wedding/lauren_affonso/600x600/14214610370_ccda70fba1_k.jpg"></div>
-                        <h3>The Afterparty</h3>
-                        <p>4:00 PM – 5:30 PM<br>
-                        St. Thomas's Church,<br>
-                        Bristol<br>
-                        U.K.<br>
-                        +1 777-123-4567</p>
-                        <a href="#" class="btn">View Map</a>
-                    </div>
+                    
                 </div>
 
                 
@@ -499,7 +543,7 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
 
         </section>
         <!-- section end -->
-
+        <hr>
 
         <!-- section -->
         
@@ -513,23 +557,19 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
             <div class="container text-center">
                 <p><img src="./images/animations/flower7.gif" data-bottom-top="@src:./images/animations/flower7.gif; opacity:1" class="gla_animated_flower" height="110" alt=""></p>
                 <h2>The Day They Got Engaged</h2>
-                <p>Andy and Jeska met in university in the Graphic Design program. They both remember each other from orientation, but it wasn’t love at first sight, that’s for sure. Andy remembers Jeska as a ‘snooty art bitch (having been in the visual arts program at the time), and she remembers Andy being an ‘arrogant computer nerd’, boasting his knowledge of Macs over the other students.</p>
+                <p>We met in senior high school. We both joined in the same club about broadcasting. May 21st is the day when Fikri and his family came to the house to discuss wedding plans. Then  On June 4th we had a private engagement ceremony.</p>
                 
-                <!-- filters -->
-                <div class="button-group filter-button-group">
-                    <a data-filter="*">Show All</a>
-                    <a data-filter=".engagement">Engagement</a>
-                    <a data-filter=".ceremony">Ceremony</a>
-                </div>
-                <!-- filters end -->
+           <br>
+           <br>
+           <br> 
 
                 <!-- grid -->
                 <div class="gla_portfolio_no_padding grid">
                     
                     <div class="col-sm-4 gla_anim_box grid-item engagement">
                         <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214345610_af0e495ff2_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214345610_af0e495ff2_k.jpg" alt="">
+                            <a href="./images/14399773152_759f6d4057_k.jpg" class="lightbox">
+                                <img src="./images/14399773152_759f6d4057_k.jpg" alt="">
                             </a>
                             
     
@@ -539,8 +579,8 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
 
                     <div class="col-sm-4 gla_anim_box grid-item engagement">
                         <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214347748_db9bfb6322_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214347748_db9bfb6322_k.jpg" alt="">
+                            <a href="./images/14399773152_759f6d4057_x.png" class="lightbox">
+                                <img src="./images/14399773152_759f6d4057_x.png" alt="">
                             </a>
                             
 
@@ -549,159 +589,9 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
 
                     <div class="col-sm-4 gla_anim_box grid-item ceremony">
                         <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214358898_8eed03f1d6_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214358898_8eed03f1d6_k.jpg" alt="">
+                            <a href="./images/14399773152_759f6d4057_q.jpg" class="lightbox">
+                                <img src="./images/14399773152_759f6d4057_q.jpg" alt="">
                             </a>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item engagement">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214387908_8ad395d6d0_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214387908_8ad395d6d0_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item ceremony">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214397640_d49d0e765d_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214397640_d49d0e765d_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item engagement">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214429749_ad31345b6d_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214429749_ad31345b6d_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item ceremony">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214471159_96ea39117f_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214471159_96ea39117f_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item engagement">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214473720_7f2af51372_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214473720_7f2af51372_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item ceremony">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14214610370_ccda70fba1_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14214610370_ccda70fba1_k.jpg" alt="">
-                            </a>
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item ceremony">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14377952686_252620ebb7_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14377952686_252620ebb7_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item engagement">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14397823931_a8e8cf3fa7_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14397823931_a8e8cf3fa7_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item ceremony">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14399848562_abaad23e7a_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14399848562_abaad23e7a_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item engagement">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14399908894_b8858a5476_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14399908894_b8858a5476_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item engagement">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14401393205_af78b0dd2f_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14401393205_af78b0dd2f_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item ceremony">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14401390305_9a369d1e4d_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14401390305_9a369d1e4d_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item engagement">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14401083075_5bf66d3082_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14401083075_5bf66d3082_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item engagement">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14399773152_759f6d4057_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14399773152_759f6d4057_k.jpg" alt="">
-                            </a>
-                            
-
-                        </div>
-                    </div>
-
-                    <div class="col-sm-4 gla_anim_box grid-item ceremony">
-                        <div class="gla_shop_item">
-                            <a href="./images/wedding/lauren_affonso/14400933225_3b844816c3_k.jpg" class="lightbox">
-                                <img src="./images/wedding/lauren_affonso/600x600/14400933225_3b844816c3_k.jpg" alt="">
-                            </a>
-                            
-
                         </div>
                     </div>
 
@@ -755,48 +645,65 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
             <div class="gla_over" data-color="#1e1d2d" data-opacity="0.4"></div>
             
             <div class="container text-center">
-                <p><img src="./images/animations/rsvp_wh.gif" data-bottom-top="@src:./images/animations/rsvp_wh.gif" height="200" alt=""></p>
-                
+                <!-- <p><img src="./images/animations/rsvp_wh.gif" data-bottom-top="@src:./images/animations/rsvp_wh.gif" height="200" alt=""></p>
+                 -->
                 <div class="row">
                     <div class="col-md-8 col-md-push-2">
-                        <form action="https://formspree.io/your@mail.com" method="POST">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label>Your name*</label>
-                                    <input type="text" name="name" class="form-control form-opacity">
-                                </div>
-                                <div class="col-md-6">
-                                    <label>Your e-mail*</label>
-                                    <input type="text" name="email" class="form-control form-opacity">
-                                </div>
-                  
-                                <div class="col-md-6">
-                                    <label>Will you attend?</label>
+                    <?php
+// Jika tombol submit pada form ditekan
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Koneksi ke database
+    $servername = "bnzzgfnrflejvhj1gyld-mysql.services.clever-cloud.com";
+    $username = "ui1wxqldy1bvaipq";
+    $password = "kmEXb1rM1CYaONWMh8ZR";
+    $dbname = "bnzzgfnrflejvhj1gyld";
 
-                                    <input type="radio" name="attend" value="Yes, I will be there">
-                                    <span>Yes, I will be there</span><br>
-                                    <input type="radio" name="attend" value="Sorry, I can't come">
-                                    <span>Sorry, I can't come</span>
-                                    
-                                </div>
-                                <div class="col-md-6">
-                                    <label>Meal preference</label>
-                                    <select name="meal" class="form-control form-opacity">
-                                        <option value="I eat anything">I eat anything</option>
-                                        <option value="Beef">Beef</option>
-                                        <option value="Chicken">Chicken</option>
-                                        <option value="Vegetarian">Vegetarian</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-12">
-                                    <label>Notes</label>
-                                    <textarea name="message" class="form-control form-opacity"></textarea>
-                                </div>
-                                <div class="col-md-12">
-                                    <input type="submit" class="btn submit" value="Send">
-                                </div>
-                            </div>
-                        </form>
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    // Cek koneksi
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    // Ambil data dari form
+    $nama = $_POST["name"];
+    $komentar = $_POST["message"];
+
+    // Insert data ke database
+    $sql = "INSERT INTO tbl_komentar (nama, komentar) VALUES ('$nama', '$komentar')";
+
+    if ($conn->query($sql) === TRUE) {
+      echo '<script>alert("Comment saved successfully!");</script>';
+      // Redirect ke halaman yang sama
+      echo '<script>window.location.href = "index.php";</script>';
+    
+        exit();
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+
+    $conn->close();
+}
+?>
+
+<!-- Tampilan Form -->
+<form method="POST">
+    <div class="row">
+        <div class="col-md-6">
+            <label>Your name*</label>
+            <input type="text" name="name" class="form-control form-opacity">
+        </div>
+        <div class="col-md-6"></div>
+        <div class="col-md-12">
+            <label>Notes</label>
+            <textarea name="message" class="form-control form-opacity"></textarea>
+        </div>
+        <div class="col-md-12">
+            <button type="submit" class="btn submit">Send</button>
+        </div>
+    </div>
+</form>
+
                     </div>
                 </div>
                 
@@ -806,24 +713,105 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
 
         </section>
         
+<section>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <div class="card">
+        <div class="card-header text-center">
+          <span>Chat  Box</span>
+        </div>
+        <div class="card-body chat-care">
+          <ul class="chat" id="comment-list">
+            <?php
+              // Koneksi ke database
+              $host = "bnzzgfnrflejvhj1gyld-mysql.services.clever-cloud.com";
+              $username = "ui1wxqldy1bvaipq";
+              $password = "kmEXb1rM1CYaONWMh8ZR";
+              $database = "bnzzgfnrflejvhj1gyld";
 
-        
+              $conn = mysqli_connect($host, $username, $password, $database);
+              if (!$conn) {
+                die("Connection failed: " . mysqli_connect_error());
+              }
+
+              // Query untuk mengambil data komentar
+              $sql = "SELECT * FROM tbl_komentar ORDER BY created_at DESC";
+
+              $result = mysqli_query($conn, $sql);
+
+              // Loop untuk menampilkan komentar
+              if (mysqli_num_rows($result) > 0) {
+                while($row = mysqli_fetch_assoc($result)) {
+                  echo '<li class="agent clearfix">';
+                  echo '<div class="chat-body clearfix">';
+                  echo '<div class="header clearfix">';
+                  echo '<small class="right text-muted">' . date("Y-m-d", strtotime($row["created_at"])) . '</small>';
+                  echo '<br>';
+                  echo '<strong class="primary-font">' . $row["nama"] . '</strong>';
+                  echo '</div>';
+                  echo '<p>' . $row["komentar"] . '</p>';
+                  echo '</div>';
+                  echo '</li>';
+                }
+              } else {
+                echo '<li class="agent clearfix">';
+                echo '<div class="chat-body clearfix">';
+                echo '<p>No comments yet.</p>';
+                echo '</div>';
+                echo '</li>';
+              }
+
+              mysqli_close($conn);
+            ?>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+                        </section>
+                        <hr>
 
         <!-- section -->
         <section class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.8">
-            
+        <br>
+       <br>
+ 
+     
             <!-- Over -->
             <div class="gla_over" ></div>
             
             <div class="container text-center">
-                <p><img src="./images/animations/thnyou.gif" alt="" height="200" data-bottom-top="@src:./images/animations/thnyou.gif"></p>
+            <h2>Digital envelope</h2>
+               <button class="continue-application"  onclick="copyToClipboard(this.previousElementSibling.value)">
+    <div>
+        <div class="pencil"></div>
+        <div class="folder">
+            <div class="top">
+                <svg viewBox="0 0 24 27">
+                    <path d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"></path>
+                </svg>
+            </div>
+            <div class="paper"></div>
+        </div>
+    </div>
+   SALIN NOREKENING
+</button>
+<br>
+<br>
+<br>
+<br>
+<p><img src="./images/thankyou1.png" alt="" height="200" data-bottom-top="@src:./images/thankyou1.png"></p>
 
-                
-                
             </div>
             <!-- container end -->
-
+       
         </section>
+
+        
         <!-- section end -->
 
     
@@ -839,6 +827,17 @@ Demikian surat undangan ini kami sampaikan, atas perhatiannya kami ucapkan terim
 
 </div>
 <!-- Page End -->
+<script>
+function copyToClipboard(text) {
+  var tempInput = document.createElement("input");
+  tempInput.value = "adadsasd";
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+  alert(" berhasil disalin ke clipboard.");
+}
+</script>
 <script>
   // Ambil elemen iframe soundcloud
   const soundcloudIframe = document.getElementById('playedme');
