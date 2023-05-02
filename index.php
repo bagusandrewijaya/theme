@@ -5,15 +5,17 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Caca & Fikri</title>
 
 
 <!-- Favicon -->
 <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
  
@@ -38,6 +40,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <!------ Include the above in your HEAD tag ---------->
 <style>
+  
     /*/////////////////////////////////*/
 /*/////////  chat styles  /////////*/
 /*/////////////////////////////////*/
@@ -389,7 +392,7 @@
 <p style="font-family: 'Courgette', cursive; font-size: 30px; color: #19376D;">Caca & Fikri</p>
     <div class="gla_flower gla_flower2">
 
-      <img src="./images/wedding/lauren_affonso/14214412498_73d4296c75_k_sm.jpg" alt="">
+      <img src="./images/wedding/lauren_affonso/" alt="">
     </div>
 
   </div>
@@ -439,8 +442,16 @@ scrollDownBtn.addEventListener('click', function(event) {
 <br>
 <br>
 <br>           
-                
-<p  style="font-family: 'Pacifico', cursive; font-size: 25px;">It is honor for us if you are willing to attend our event. Come join us at our wedding ceremony.</p>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>           
+<p  style=" font-size: 18px;">It is honor for us if you are willing to attend our event. Come join us at our wedding ceremony.</p>
 <br>
 <br>
 <br>
@@ -466,18 +477,18 @@ scrollDownBtn.addEventListener('click', function(event) {
               
             <h2>The Wedding of</h2>
     
-            <p style="font-family: 'Satisfy', cursive; font-size: 30px; text-transform: capitalize;">Amalia Salsabila, S.Pd</p>
+            <p style="font-family: 'Caveat', cursive; font-size: 35px; text-transform: capitalize;">Amalia Salsabila, S.Pd</p>
        <br>
-            <p style="font-family: 'Satisfy',cursive; sans-serif;  font-size: 20px;">The first daughter of<br> Mr. Muhammad Indarwin<br> and<br> Mrs. Sri Sulastri</p>
+            <p style="font-family: 'Montserrat',cursive; sans-serif;  font-size: 16px;">The first daughter of<br> Mr. Muhammad Indarwin<br> and<br> Mrs. Sri Sulastri</p>
       <br>
              <div>
              <p><img src="./images/and.png" data-bottom-top="@src:./images/and.png; opacity:1" class="gla_animated_flower" height="50" alt=""></p>
           
 </div>
        <br>
-       <p style="font-family: 'Satisfy', cursive; font-size: 30px;">Fikri Handika, S.Ikom</p>
+       <p style="font-family: 'Caveat', cursive; font-size: 35px;">Fikri Handika, S.Ikom</p>
             <br>
-            <p style="font-family: 'Satisfy' ,cursive; sans-serif;  font-size: 20px;">The first son of <br>Mr. Heri Setiawan <br>and<br> Mrs. Wati Bidiawati</p>
+            <p style="font-family: 'Montserrat' ,cursive; sans-serif;  font-size: 16px;">The first son of <br>Mr. Heri Hermawan<br>and<br> Mrs. Wati Pidiawati</p>
 
              <br>
             </div>
@@ -519,12 +530,12 @@ scrollDownBtn.addEventListener('click', function(event) {
                 <br>
                 <h2  class="gla_subtitle">Wedding Details</h2>
 
-                <div class="row text-center">
+                <div >
                     <div class="col-md-4 gla_round_block">
                           <h3 style="font-size: 24px;">The Ceremony</h3>
                         <p  style="font-size: 16px;">08.00 AM - 10.00 AM<br>
                         Hall Building Balitro</p>
-                        <a  style="font-size: 16px;"  href="#" class="btn">View Map</a>
+                        <a  style="font-size: 16px;"  href="https://www.google.com/maps/dir//balitro/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x2e69c5b4c2fec011:0xc38d43554152b359?sa=X&ved=2ahUKEwik6Lv-xdb-AhW17zgGHehGBcsQ9Rd6BAhDEAQ" class="btn">View Map</a>
                     </div>
 </div>
                     <div class="row text-center">
@@ -532,7 +543,7 @@ scrollDownBtn.addEventListener('click', function(event) {
                           <h3 style="font-size: 24px;">The Reception</h3>
                         <p  style="font-size: 16px;">11.00 AM - 14.00 PM<br>
                         Hall Building Balitro</p>
-                        <a   style="font-size: 16px;" href="#" class="btn">View Map</a>
+                        <a   style="font-size: 16px;" href="https://www.google.com/maps/dir//balitro/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x2e69c5b4c2fec011:0xc38d43554152b359?sa=X&ved=2ahUKEwik6Lv-xdb-AhW17zgGHehGBcsQ9Rd6BAhDEAQ" class="btn">View Map</a>
                     </div>
                     
                 </div>
@@ -556,8 +567,8 @@ scrollDownBtn.addEventListener('click', function(event) {
             
             <div class="container text-center">
                 <p><img src="./images/animations/flower7.gif" data-bottom-top="@src:./images/animations/flower7.gif; opacity:1" class="gla_animated_flower" height="110" alt=""></p>
-                <h2>The Day They Got Engaged</h2>
-                <p>We met in senior high school. We both joined in the same club about broadcasting. May 21st is the day when Fikri and his family came to the house to discuss wedding plans. Then  On June 4th we had a private engagement ceremony.</p>
+                <h2>The Day We Got Engaged</h2>
+                <p style="font-size: 16px;">We met in senior high school. We both joined in the same club about broadcasting. On May 21st 2022 is the day when Fikri and his family came to the house to discuss wedding plans. Then On June 4th 2023 we had a private engagement ceremony.</p>
                 
            <br>
            <br>
@@ -642,7 +653,7 @@ scrollDownBtn.addEventListener('click', function(event) {
         <section class="gla_section gla_image_bck gla_fixed gla_wht_txt" data-stellar-background-ratio="0.2" >
             
             <!-- Over -->
-            <div class="gla_over" data-color="#1e1d2d" data-opacity="0.4"></div>
+            <div class="gla_over" data-color="#F6F1F1" data-opacity="0.4"></div>
             
             <div class="container text-center">
                 <!-- <p><img src="./images/animations/rsvp_wh.gif" data-bottom-top="@src:./images/animations/rsvp_wh.gif" height="200" alt=""></p>
@@ -804,6 +815,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <br>
 <br>
 <br>
+<hr>
+<br>
+<br>
+
 <p><img src="./images/thankyou1.png" alt="" height="200" data-bottom-top="@src:./images/thankyou1.png"></p>
 
             </div>
@@ -830,12 +845,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <script>
 function copyToClipboard(text) {
   var tempInput = document.createElement("input");
-  tempInput.value = "adadsasd";
+  tempInput.value = "0953651073";
   document.body.appendChild(tempInput);
   tempInput.select();
   document.execCommand("copy");
   document.body.removeChild(tempInput);
-  alert(" berhasil disalin ke clipboard.");
+  alert("Atas nama AMALIA SALSABILA");
 }
 </script>
 <script>
